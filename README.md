@@ -40,7 +40,7 @@ Classification Report:
          1       0.88      0.91      0.89        32
   accuracy                           0.89        61
  macro avg       0.89      0.88      0.88        61
-weighted avg 0.89 0.89 0.89 61
+weighted avg     0.89      0.89      0.89        61
 
 
 Confusion Matrix: Correctly classified most instances with minimal errors.
