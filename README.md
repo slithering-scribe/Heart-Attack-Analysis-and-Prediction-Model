@@ -7,9 +7,9 @@ I’m currently learning: Advanced techniques in health data analysis and model 
 
 I’m looking to collaborate on: Projects related to health analytics, predictive modeling, and innovative solutions for healthcare challenges.
 
-How to reach me: [Your Email Address]
+How to reach me: [tamara.kachalla@outlook.com]
 
-Pronouns: [Your Pronouns]
+Pronouns: [He/Him]
 
 ⚡ Fun fact: The human heart beats around 100,000 times a day!
 
