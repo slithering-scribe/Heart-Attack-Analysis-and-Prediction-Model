@@ -39,18 +39,12 @@ Reports: Provides detailed reports on findings and model performances.
 Visualizations: Contains visualizations that help interpret the data and model results.
 
 How to Use
-Clone the Repository:
+1. Clone the Repository:
+   bash git clone [repository link]
 
-bash
+2. Install Dependencies:
+   bash pip install -r requirements.txt
 
-Copy
-git clone [repository link]
-Install Dependencies:
-
-bash
-
-Copy
-pip install -r requirements.txt
 Run Notebooks: Open the notebooks in Jupyter and follow the instructions for data analysis, model building, and evaluation.
 
 Contributions
