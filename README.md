@@ -117,3 +117,71 @@ Dieses Projekt ist unter der MIT-Lizenz lizenziert.
 
 Here’s to predicting heart health with data science! 🚀❤️  
 Auf eine datengestützte Zukunft in der Herzgesundheit! 🚀❤️
+
+---
+
+## Model Performance and Conclusion / Modellevaluation und Schlussfolgerung
+
+### **Neural Network Model Performance / Leistung des neuronalen Netzes**
+
+- **Accuracy / Genauigkeit:** 0.803
+
+### **Summary of Model Performances / Zusammenfassung der Modellevaluation**
+
+**Logistic Regression / Logistische Regression:**
+- **Accuracy / Genauigkeit:** 0.754  
+- **Best Parameters / Beste Parameter:** `{'C': 100, 'max_iter': 100, 'solver': 'newton-cg'}`  
+- **Confusion Matrix / Konfusionsmatrix:**
+  ```
+  [[19  9]
+   [ 6 27]]
+  ```
+
+**Random Forest:**
+- **Accuracy / Genauigkeit:** 0.770  
+- **Best Parameters / Beste Parameter:** `{'bootstrap': False, 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}`  
+- **Confusion Matrix / Konfusionsmatrix:**
+  ```
+  [[19  9]
+   [ 5 28]]
+  ```
+
+**Random Forest with Top Features / Random Forest mit Top-Merkmalen:**
+- **Accuracy / Genauigkeit:** 0.738  
+- **Confusion Matrix / Konfusionsmatrix:**
+  ```
+  [[21  7]
+   [ 9 24]]
+  ```
+
+**Gradient Boosting:**
+- **Accuracy / Genauigkeit:** 0.803  
+- **Best Parameters / Beste Parameter:** `{'learning_rate': 0.01, 'max_depth': 4, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}`  
+- **Confusion Matrix / Konfusionsmatrix:**
+  ```
+  [[21  7]
+   [ 5 28]]
+  ```
+
+**Voting Classifier:**
+- **Accuracy / Genauigkeit:** 0.754  
+- **Confusion Matrix / Konfusionsmatrix:**
+  ```
+  [[21  7]
+   [ 8 25]]
+  ```
+
+**Support Vector Machine (SVM) / Support Vector Machine (SVM):**
+- **Accuracy / Genauigkeit:** 0.754  
+- **Confusion Matrix / Konfusionsmatrix:**
+  ```
+  [[21  7]
+   [ 8 25]]
+  ```
+
+**Neural Network / Neuronales Netz:**
+- **Accuracy / Genauigkeit:** 0.803
+
+### **Conclusion / Schlussfolgerung:**
+
+Among the models evaluated, both the **Gradient Boosting** model and the **Neural Network** achieved the highest accuracy of **0.803**. This suggests that these models are particularly effective for predicting heart attacks based on the current dataset. The performance of the **Voting Classifier** and **SVM** was comparable to **Logistic Regression**, while the **Random Forest** models also performed well, albeit slightly lower. Further fine-tuning and exploration of ensemble methods may lead to additional improvements in predictive performance.
